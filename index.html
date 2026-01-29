@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+   <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="فريق Vortexa - فريق طلابي تطوعي في كلية الحسين لتكنولوجيا المعلومات بالجامعة الهاشمية، متخصص في تطوير البرمجيات والذكاء الاصطناعي والأمن السيبراني. نطور مشاريع تقنية لخدمة المجتمع الطلابي.">
+    <meta name="keywords" content="فريق Vortexa,الأمن السيبراني , الذكاء الاصطناعي ,تطوع, كلية الحسين لتكنولوجيا المعلومات, الجامعة الهاشمية, مشاريع طلابية,Vortexa Team,HU ,team ,فريق, برمجة, أمن معلومات">
+    
+    <!-- تحميل Font Awesome -->
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"></noscript>
+    
+    <!-- تحميل الخطوط -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;900&display=swap" rel="stylesheet">
+    
+    <!-- تحميل CSS -->
+    <link rel="preload" href="Home.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="Home.css"></noscript>
+    <link rel="icon" type="image/png" href="image/vortexaL.png">
+    <title>Vortexa Team</title>
+
+
+</head>
+<body>
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <img src="image/Vortexa_logo and text.png" alt="Vortexa Logo" id="logo" loading="lazy">
+            </div>
+            <button class="menu-toggle" aria-label="فتح القائمة">☰</button>
+            <nav class="dd">
+                <ul>
+                    <li><a href="index.html">الصفحة الرئيسية</a></li>
+                    <li><a href="teamser.html">خدمات الفريق</a></li>
+                    <li><a href="ITser.html">خدمات الموقع</a></li>
+                    <li><a href="about.html">من نحن</a></li>
+                    <li><a href="concat.html">تواصل معنا</a></li>
+                </ul>
+            </nav>
+            <a href="https://chat.whatsapp.com/ERc9AM3qSQg6xhWxpwpAYt" class="color">
+                <i class="fa-brands fa-whatsapp"></i> كن معنا
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <div class="background-blur"></div>
+        <div class="floating-ball"></div>
+        <!--قسم الترحييب-->    
+        <div class="wellcome">
+            <img src="image/vortexaD.png" alt="vortexaD" class="rotating-image" id="rotatingImage">
+            
+            <div class="welcome-text">
+                <br><br><br>
+                <h1 style="text-align: center;">مرحباً بكم في موقع فريق Vortexa</h1>
+                <p style="text-align: center;">
+انطلق فريق <strong>Vortexa</strong> في عام 2025 كواحد من أبرز الفرق التقنية الطلابية على مستوى المملكة، ليُرسّخ مكانته كبيئة إبداعية تجمع الشغف التكنولوجي . يعمل الفريق على تحويل الأفكار إلى مشاريع رائدة تترك أثراً ملموساً في الساحة التقنية المحلية والإقليمية.<br><br>
+
+يتميز الفريق بروح التميز والإبداع، حيث يطور مهارات أعضائه في أحدث المجالات التقنية مثل الذكاء الاصطناعي، الروبوتات، برمجة التطبيقات، وتصميم الأنظمة الذكية. نركز على تقديم حلول مبتكرة تلبي متطلبات الثورة الصناعية الرابعة وتحديات العصر الرقمي.<br><br>
+
+تحت شعار <strong>"من الفكرة إلى الواقع"</strong>، نسعى لبناء جيل من المبتكرين والقادة التقنيين الذين يمتلكون الأدوات والمعرفة لقيادة التحول التكنولوجي في المملكة الأردنية الهاشمية . كانت انطلاقتنا عام 2025 بداية لمسيرة طموحة لا تعرف الحدود.<br><br>
+
+<strong>نحو مستقبل تقني مشرق.. طموحنا يصنع الفرق!</strong> 🚀💡
+                </p>
+            </div>
+        </div>
+        
+
+
+        <a href="#" class="home-button">
+            <i class="fas fa-arrow-up"></i>
+        </a>
+
+        <center>   
+            <div class="national-logos">
+                <img src="image/jo.png" alt="علم الأردن" class="jordan-flag">
+            </div>
+        </center>
+<br>
+        <!--قسم ولي العهد-->
+        <div class="prince-section">
+            <div class="prince-image-container">
+                <img src="image/alhussin.jpg" alt="سمو ولي العهد الحسين بن عبدالله">
+            </div>
+            
+            <div class="prince-content">
+                <h2 class="prince-title">رسالة ملهمة <i class="fas fa-crown crown-icon"></i></h2>
+                
+                <div class="prince-message" id="princeQuote">
+                    <!-- سيتم تعبئة النص العشوائي هنا عبر الجافاسكريبت -->
+                </div>
+                
+                <div class="prince-signature">
+                    <div class="signature-line"></div>
+                    <div class="signature-text">سمو ولي العهد الحسين بن عبدالله الثاني</div>
+                </div>
+            </div>
+        </div>
+
+        <h1 class="h1Pro" style="text-align: center;">الوصول السريع لأهم اركان الموقع</h1>
+        <br><br>
+        <div class="nav-container">
+            <a href="gpi.html" class="nav-button">
+                <i class="fas fa-calculator"></i> حساب المعدل
+            </a>
+            <a href="majors.html" class="nav-button">
+                <i class="fas fa-graduation-cap"></i>التخصصات
+            </a>
+            <a href="resources.html" class="nav-button">
+                <i class="fas fa-book-open"></i>مصادر المواد
+            </a>
+            <a href="Courses.html" class="nav-button">
+                <i class="fas fa-film"></i>   الدورات 
+            </a>
+            <a href="CVats.html" class="nav-button">
+                <i class="fas fa-file-alt"></i>منشئ السيرة الذاتية (ATS)
+
+            </a>
+        </div>
+
+        <section class="majors-section">
+            <div class="section-header">
+                <h2><i class="fas fa-graduation-cap"></i> تخصصات التكنولوجيا</h2>
+                <p>اكتشف عالم التكنولوجيا   </p>
+            </div>
+            
+            <div class="majors-container">
+                <!-- تخصص 1 -->
+                 <a href="cs.html" style="text-decoration: none;">
+                <div class="major-item"> 
+                    <div class="major-icon" style="background-color: #3E57FD; text-decoration: none;">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <div class="major-info">
+                        
+                            <h3>علم الحاسوب</h3>
+                            <p>Computer Science</p>
+                        
+                    </div>
+                </div>
+                </a>
+                <!-- تخصص 2 -->
+                 <a href="cis.html" style="text-decoration: none;">
+                <div class="major-item">
+                    <div class="major-icon" style="background-color: #A88DFA;">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <div class="major-info">
+                            <h3>نظم معلومات الحاسوب</h3>
+                            <p>Computer Information Systems</p> 
+                    </div>
+                </div>
+               </a>
+                <!-- تخصص 3 -->
+                 <a href="bit.html" style="text-decoration: none;">
+                <div class="major-item">
+                    <div class="major-icon" style="background-color: #6E45E2;">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="major-info">
+                        
+                            <h3>تكنولوجيا معلومات الأعمال</h3>
+                            <p>Business Information Technology</p>
+                        
+                    </div>
+                </div>
+                </a>
+                <!-- تخصص 4 -->
+                <a href="se.html" style="text-decoration: none;">
+                <div class="major-item">
+                    <div class="major-icon" style="background-color: #3E57FD;">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="major-info">
+                        
+                            <h3>هندسة البرمجيات</h3>
+                            <p>Software Engineering</p>
+                       
+                    </div>
+                </div>
+                 </a>
+                <!-- تخصص 5 -->
+                 <a href="ai.html" style="text-decoration: none;">
+                <div class="major-item">
+                    <div class="major-icon" style="background-color: #A88DFA;">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <div class="major-info">
+                        
+                            <h3>علوم البيانات والذكاء الاصطناعي</h3>
+                            <p>Data Science & AI</p>
+                       
+                    </div>
+                </div>
+                 </a>
+                <!-- تخصص 6 -->
+                 <a href="cyber.html" style="text-decoration: none;">
+                <div class="major-item">
+                    <div class="major-icon" style="background-color: #6E45E2;">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <div class="major-info">
+                        
+                            <h3>الأمن السيبراني</h3>
+                            <p>Cybersecurity</p>
+                       
+                    </div>
+                </div>
+                 </a>
+            </div>
+        </section>
+
+        <!-- قسم دعم العمادة 
+                 <section class="deanship-section">
+            <div class="section-header">
+                <h2><i class="fas fa-hands-helping"></i> عمادة شؤون الطلبة في الجامعة الهاشمية: قيادةٌ داعمة وشراكةٌ فاعلة مع الطلبة</h2>
+                <p>عمادة شؤون الطلبة - الجامعة الهاشمية</p>
+            </div>
+            
+            <div class="deanship-content">
+                <p>
+                   تُعد عمادة شؤون الطلبة في الجامعة الهاشمية أحد الأعمدة الأساسية في بناء شخصية الطالب، من خلال رعاية الجوانب النفسية والاجتماعية والثقافية والرياضية، وتعزيز روح القيادة والانتماء.
+
+وبقيادة الأستاذ الدكتور باسل المشاقبة، ومن خلال فريقه المكوّن من مساعد العميد الدكتور أيمن العليمات، ونائب العميد الدكتور علي النوايسة، ونائب العميد الدكتور فراس العسلي، ومساعد العميد الدكتورة يسرى الخلايلة، ومساعد العميد الدكتورة انشراح الطراونة، تعمل العمادة بروح الفريق الواحد لخدمة الطلبة ودعم مسيرتهم الجامعية.
+
+تسعى العمادة إلى توفير بيئة جامعية محفزة تُمكّن الطلبة من الإبداع والمشاركة الفاعلة في صنع القرار، وتشجّع المبادرات الطلابية والحوار البنّاء.
+
+وقد أثمرت هذه الجهود عن بيئة نابضة بالحياة، تزخر بالأنشطة والفرص، وتسهم في إعداد جيل جامعي واعٍ ومتميّز.
+                </p>         
+            </div>
+            
+            <div class="deanship-officials">
+                <div class="official-card">
+                    <img src="image/DRB.jpg" alt="عميد شؤون الطلبة">
+                    <h3>عميد شؤون الطلبة</h3>
+                    <p>د.باسل المشاقبة</p>
+                </div>
+                
+                <div class="official-card">
+                    <img src="image/user (1).png" alt="نائب العميد ">
+                    <h3> نائب عميد شؤون الطلبة </h3>
+                    <p>الدكتور علي النوايسة </p>
+                </div>
+                <div class="official-card">
+                    <img src="image/emp_images.jpg" alt="نائب العميد ">
+                    <h3> نائب عميد شؤون الطلبة </h3>
+                    <p> الدكتور فراس العسلي  </p>
+                </div>
+    
+                <div class="official-card">
+                    <img src="image/BRA.jpg" alt="نائب عميد شؤون الطلبة">
+                    <h3>مساعد عميد شؤون الطلبة </h3>
+                    <p>د. أيمن العليمات</p>
+                </div>
+                <div class="official-card">
+                    <img src="image/emp_images (2).jpg" alt="نائب عميد شؤون الطلبة">
+                    <h3>مساعد عميد شؤون الطلبة </h3>
+                    <p>د. أنشراح الطراونة</p>
+                </div>
+                <div class="official-card">
+                    <img src="image/emp_images (1).jpg" alt="نائب عميد شؤون الطلبة">
+                    <h3>مساعد عميد شؤون الطلبة </h3>
+                    <p>د. يسرى الخلايلة</p>
+                </div>
+            </div>
+        </section>
+         
+        
+        
+        -->
+
+
+        <br><br><br><br><br><br>
+
+        <!-- قسم الرؤية والرسالة -->
+        <section class="vision-mission-section">
+            <div class="vm-bg-circle"></div>
+            <div class="vm-bg-circle"></div>
+            
+            <div class="vm-container">
+                <div class="vm-content">
+                    <div class="vision-box">
+                        <h3 class="vm-title"><i class="fas fa-eye"></i> رؤيتنا (Vision)</h3>
+                        <p class="vm-text">
+                            نحو بيئة وطنية تقنية محفّزة، يقودها طلاب مبدعون، ويساهم فيها فريق Vortexa في تمكين المعرفة، وتعزيز العمل التطوعي، وخدمة المجتمع بالأدوات الرقمية الحديثة.
+                        </p>
+                    </div>
+                    
+                    <div class="mission-box">
+                        <h3 class="vm-title"><i class="fas fa-paper-plane"></i> رسالتنا (Mission)</h3>
+                        <p class="vm-text">
+                            نحن فريق طلابي تطوعي من كلية تكنولوجيا المعلومات، نسعى لتمكين زملائنا أكاديميًا ومهنيًا عبر تقديم محتوى تقني مميز، وخدمات تعليمية مبتكرة، ومبادرات مجتمعية هادفة، لتكوين جيل واعٍ قادر على قيادة المستقبل الرقمي.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- قسم لماذا تختار Vortexa -->
+        <section class="why-choose-us">
+            <div class="why-container">
+                <div class="section-header">
+                    <h2><i class="fas fa-question-circle"></i> لماذا تختار Vortexa؟</h2>
+                </div>
+                
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h3>مجتمع تقني متميز</h3>
+                        <p>انضم إلى مجتمع من الطلاب الموهوبين والمهتمين بالتكنولوجيا حيث تتبادل المعرفة والخبرات</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <h3>ورش عمل متخصصة</h3>
+                        <p>نقدم ورش عمل تقنية متقدمة تغطي أحدث التقنيات في مجال الذكاء الاصطناعي والبرمجة</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-handshake"></i>
+                        </div>
+                        <h3>شراكات مع الشركات</h3>
+                        <p>فرص للتواصل مع الشركات الرائدة في القطاع التقني وفرص تدريب وعمل حصرية</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <h3>بيئة للإبداع</h3>
+                        <p>مساحة لتحويل أفكارك إلى مشاريع واقعية بدعم من mentors متخصصين</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h3>تطوير أكاديمي</h3>
+                        <p>برامج مساندة للتحصيل الأكاديمي ورفع المستوى العلمي لطلاب الكلية</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <h3>إنجازات حقيقية</h3>
+                        <p>سجل حافل بالمشاريع الناجحة والجوائز في المسابقات التقنية المحلية والدولية</p>
+                    </div>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: -20px;">
+                <a href="https://wa.me/962781362191" class="join-us-btn pulse">
+                    <i class="fas fa-user-plus"></i> انتساب للفريق
+                </a>
+            </div>
+        </section>
+
+        
+    </main>
+<br><br><br>
+         <!-- الرسالة التحفيزية -->
+        <div class="vortexa-message" id="motivationMessage">
+            <i class="fas fa-rocket"></i>
+            <span class="message-text" id="messageContent"></span>
+        </div>
+        <!-- قسم شعار Vortexa المتحرك -->
+<section class="vortexa-logo-section">
+    <center><h1>الشركاء والداعمين </h1></center>
+    <div class="vortexa-logo-container">
+        <div class="vortexa-logo-track">
+            <!-- شعار Vortexa متكرر -->
+            <a href="index.html" class="vortexa-logo">
+                <img src="image/vortexaD.png" alt="Vortexa Logo">
+            </a>
+            <a href="index.html" class="vortexa-logo">
+                <img src="image/vortexaD.png" alt="Vortexa Logo">
+            </a>
+            <a href="index.html" class="vortexa-logo">
+                <img src="image/vortexaD.png" alt="Vortexa Logo">
+            </a>
+            <a href="index.html" class="vortexa-logo">
+                <img src="image/vortexaD.png" alt="Vortexa Logo">
+            </a>
+            <a href="index.html" class="vortexa-logo">
+                <img src="image/vortexaD.png" alt="Vortexa Logo">
+            </a>
+            <!-- تكرار الشعار لإنشاء تأثير متواصل -->
+            <a href="index.html" class="vortexa-logo">
+                <img src="image/vortexaD.png" alt="Vortexa Logo">
+            </a>
+            <a href="index.html" class="vortexa-logo">
+                <img src="image/vortexaD.png" alt="Vortexa Logo">
+            </a>
+            <a href="index.html" class="vortexa-logo">
+                <img src="image/vortexaD.png" alt="Vortexa Logo">
+            </a>
+            <a href="index.html" class="vortexa-logo">
+                <img src="image/vortexaD.png" alt="Vortexa Logo">
+            </a>
+            <a href="index.html" class="vortexa-logo">
+                <img src="image/vortexaD.png" alt="Vortexa Logo">
+            </a>
+        </div>
+    </div>
+</section>
+        
+
+    <!--footer-->
+<footer>
+    <div class="footer-bg-circle"></div>
+    <div class="footer-bg-circle"></div>
+    
+    <div class="footer-container">
+        <!-- الأقسام الحالية تبقى كما هي -->
+        <div class="footer-section">
+            <h3>عن الفريق</h3>
+            <p>نمشي برؤيا الحُسين , شباب قادر لأردن طموح</p>
+            <div class="social-links">
+                <a href="https://www.facebook.com/profile.php?id=61577616029340"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://chat.whatsapp.com/ERc9AM3qSQg6xhWxpwpAYt"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.linkedin.com/in/vortexa-team-373121372/"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.instagram.com/vorteam2025/"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        
+        <div class="footer-section">
+            <h3>روابط سريعة</h3>
+            <ul>
+                <li><a href="index.html">الصفحة الرئيسية</a></li>
+                <li><a href="teamser.html">خدمات الفريق</a></li>
+                <li><a href="ITser.html">خدمات الموقع</a></li>
+                <li><a href="about.html">من نحن</a></li>
+                <li><a href="concat.html">تواصل معنا</a></li>
+            </ul>
+        </div>
+        
+        <!-- القسم الجديد للجامعة والكلية -->
+        <div class="footer-section">
+            <h3>الكليات</h3>
+            <ul>
+                <!--                <li><a href="university.html" target="_blank"><i class="fas fa-university"></i> الجامعة الهاشمية</a></li>
+-->
+                <li><a href="hcit.html" target="_blank"><i class="fas fa-laptop-code"></i> كلية الحسين لتكنولوجيا المعلومات</a></li>
+                <!-- يمكنك إضافة المزيد من الروابط حسب الحاجة -->
+            </ul>
+        </div>
+        
+        <div class="footer-section footer-contact">
+            <h3>تواصل معنا</h3>
+            <p><i class="fas fa-map-marker-alt"></i>المملكة الأردنية الهاشمية - الزرقاء</p>
+            <p><i class="fas fa-phone"></i> +962 781362191</p>
+            <p><i class="fas fa-envelope"></i> vortexateam2025@gmail.com</p>
+        </div>
+    </div>
+    
+    <div class="footer-bottom">
+       <a href="https://wa.me/962781362191" style="color: aliceblue;"> <p> By SANAD AL-KHWALDEH </p></a>
+        <p>&copy; 2025 Vortexa. جميع الحقوق محفوظة</p>
+    </div>
+</footer>
+
+    <!-- JavaScript-->
+    <script>
+        // تفعيل القائمة المنسدلة على الهواتف
+        document.querySelector('.menu-toggle').addEventListener('click', function() {
+            document.querySelector('nav ul').classList.toggle('active');
+        });
+        
+        // إغلاق القائمة عند النقر على رابط
+        document.querySelectorAll('nav ul li a').forEach(link => {
+            link.addEventListener('click', function() {
+                if (window.innerWidth <= 767) {
+                    document.querySelector('nav ul').classList.remove('active');
+                }
+            });
+        });
+        
+        const princeQuotes = [
+            "الشباب هم ثروتنا الأغلى، وهم طاقة التغيير الإيجابي في المجتمع.",
+            "الشباب الأردني لا ينقصه شيء، فقط يحتاج إلى الفرصة ليثبت نفسه.",
+            "أحلم أن يرى كل شاب وشابة في الأردن طريقهم بوضوح، وأن يجدوا من يدعمهم لتحقيق طموحاتهم.",
+            "نحن نؤمن بالشباب، ونسعى لتوفير البيئة التي تحتضن قدراتهم وتفجّر طاقاتهم.",
+            "أنتم صناع المستقبل، ومنكم ستولد الحلول، وبكم سيتحقق التغيير.",
+            "أثق بقدرة شبابنا على بناء أردن أقوى وأجمل وأكثر ازدهارًا.",
+            "ليس المطلوب منكم الانتظار، بل المبادرة والعمل والتميز.",
+            "الشباب هم العمود الفقري لأي نهضة، ونجاحهم هو نجاح الوطن."
+        ];
+
+        // اختيار نص عشوائي
+        function getRandomQuote() {
+            const randomIndex = Math.floor(Math.random() * princeQuotes.length);
+            return princeQuotes[randomIndex];
+        }
+
+        // عرض النص العشوائي
+        document.getElementById('princeQuote').textContent = getRandomQuote();
+
+        // تأثيرات عند التمرير
+        window.addEventListener('scroll', function() {
+            const princeSection = document.querySelector('.prince-section');
+            const rect = princeSection.getBoundingClientRect();
+            const isVisible = (rect.top <= window.innerHeight * 0.75) && (rect.bottom >= 0);
+            
+            if (isVisible) {
+                princeSection.style.opacity = '1';
+                princeSection.style.transform = 'translateY(0)';
+            }
+        });
+
+        // تهيئة أولية للتأثير
+        document.querySelector('.prince-section').style.opacity = '0';
+        document.querySelector('.prince-section').style.transform = 'translateY(50px)';
+        document.querySelector('.prince-section').style.transition = 'all 0.8s ease-out';
+
+        // رسائل تحفيزية موسعة
+        const motivationalMessages = [
+            // 🔥 رسائل تحفيزية قوية
+            "المستقبل ينتمي لأولئك الذين يؤمنون بجمال أحلامهم!",
+            "لا تنتظر الفرصة.. اصنعها!",
+            "النجاح ليس صدفة، بل اختيار!",
+            "كل شيء مستحيل.. حتى يفعله أحدهم!",
+            "لا يوجد مصعد للنجاح.. عليك أن تستخدم الدرج!",
+            "التحديات تصنع الأبطال!",
+            "أنت أقوى مما تظن!",
+            "فشلت مرات كثيرة.. لهذا أنا ناجح!",
+            "النجاح يبدأ عندما ترفض الاستسلام!",
+            "لا تخشى السقوط.. بل خشى ألا تحاول!",
+            
+            // 💡 رسائل إبداعية وتقنية
+            "كل كود تكتبه هو خطوة نحو المستقبل!",
+            "الإبداع التقني هو لغتنا.. والمستقبل هو كتابنا!",
+            "لا تكن مستخدماً.. كن صانعاً للتقنية!",
+            "وراء كل برنامج ناجح.. مبرمج رفض الاستسلام!",
+            "التقنية ليست أداة.. بل هي طريقة تفكير!",
+            "المشاكل التقنية ليست عقبات.. بل فرص للتعلم!",
+            "كل بايت تكتبه يغير العالم!",
+            "المبرمج الحقيقي لا يكتب كوداً.. يبني أحلاماً!",
+            "التقنية بدون إبداع كجسد بدون روح!",
+            "في عالم الأصفار والآحاد.. أنت الواحد المميز!",
+            
+            // 🚀 رسائل طموح وتحدي
+            "السماء ليست الحد.. بل البداية!",
+            "طموحك هو فقط من يحدد مستواك!",
+            "لا تحلم أحلاماً صغيرة.. فليس لديك ما يجعلك صغيراً!",
+            "كن عظيماً أو لا تحاول!",
+            "التحدي الحقيقي هو أن تتحدى نفسك!",
+            "كل يوم فرصة جديدة لصنع المعجزات!",
+            "لا تكن نسخة.. كن أصلياً!",
+            "النجاح رحلة.. استمتع بكل خطوة!",
+            "لا يوجد شيء اسمه فشل.. هناك فقط نتائج!",
+            "الفرق بين المستحيل والممكن.. هو إرادة الشخص!",
+            
+            // 🌟 رسائل فريق وعمل جماعي
+            "معاً.. نصنع المستحيل ممكناً!",
+            "الفريق الواحد يصنع المعجزات!",
+            "لا يوجد أنا في الفريق.. بل نحن!",
+            "اختلافنا هو مصدر قوتنا!",
+            "اليد الواحدة تصفق.. والأيدي معاً تصنع التغيير!",
+            "الفريق المتماسك يبني الحضارات!",
+            "نجاح الفريق هو نجاح كل فرد فيه!",
+            "معاً نرتقي.. وفردياً نتبدد!",
+            "التنوع في الفريق يصنع الإبداع!",
+            "كل عضو في الفريق هو حلقة في سلسلة النجاح!",
+            
+            // 💪 رسائل تحدي وإصرار
+            "عندما يقولون 'مستحيل'.. هذا يعني أنك على الطريق الصحيح!",
+            "التعب مؤقت.. ولكن الفخر دائم!",
+            "لا تتراجع.. فربما تكون على بعد خطوة واحدة من النجاح!",
+            "العراقيل تصنع العظماء!",
+            "إذا لم تفشل.. فأنت لا تجرب أشياء جديدة!",
+            "القوة لا تأتي من الفوز.. بل من الصراع!",
+            "كل مشكلة هي هدية.. بدونها لن ننمو!",
+            "النجاح هو مجموع الجهود الصغيرة المتكررة!",
+            "لا تيأس.. فآخر مفتاح في الحزمة هو الذي سيفتح الباب!",
+            "الضغط يصنع الألماس.. والتحدي يصنع الأبطال!",
+            
+            // رسائل إضافية خاصة بفريق Vortexa
+            "طموحك هو بداية نجاحك! فريق Vortexa معك 💪",
+            "معاً نصنع المستقبل التقني! 🌟",
+            "الإبداع لا يعرف الحدود، انطلق معنا! 🚀",
+            "أنت تمتلك القدرة على صنع الفارق! 🔥",
+            "رحلة الألف ميل تبدأ بخطوة، وهذه خطوتك الأولى! 👣",
+            "من الفكرة إلى الواقع.. مع Vortexa! 💡",
+            "نحو مستقبل رقمي نصنعه بأيدينا! 🌐",
+            "فريق Vortexa.. حيث تتحول الأفكار إلى مشاريع! 💻",
+            "معاً نبتكر، معاً ننجح! 🤝",
+            "Vortexa.. منصة الإبداع التقني! 🏆"
+        ];
+
+        // اختيار رسالة عشوائية
+        function getRandomMessage() {
+            const randomIndex = Math.floor(Math.random() * motivationalMessages.length);
+            return motivationalMessages[randomIndex];
+        }
+
+        // عرض الرسالة
+        function showMotivationMessage() {
+            const messageElement = document.getElementById('motivationMessage');
+            const contentElement = document.getElementById('messageContent');
+            
+            contentElement.textContent = getRandomMessage();
+            messageElement.classList.add('show');
+            
+            // إخفاء الرسالة بعد 3 ثواني
+            setTimeout(() => {
+                messageElement.classList.remove('show');
+            }, 4000);
+        }
+
+        // عرض الرسالة بعد تحميل الصفحة
+        window.addEventListener('load', function() {
+            setTimeout(showMotivationMessage, 1000); // تظهر بعد ثانيتين من تحميل الصفحة
+        });
+
+        // أضف هذا في نهاية ملف JavaScript
+        // تأثيرات التمرير
+        window.addEventListener('scroll', function() {
+            const elements = document.querySelectorAll('.feature-card, .vision-box, .mission-box');
+            
+            elements.forEach(element => {
+                const rect = element.getBoundingClientRect();
+                const isVisible = (rect.top <= window.innerHeight * 0.8) && (rect.bottom >= 0);
+                
+                if (isVisible) {
+                    element.style.opacity = '1';
+                    element.style.transform = 'translateY(0)';
+                }
+            });
+        });
+
+        // تهيئة أولية للتأثيرات
+        document.querySelectorAll('.feature-card, .vision-box, .mission-box').forEach(element => {
+            element.style.opacity = '0';
+            element.style.transform = 'translateY(30px)';
+            element.style.transition = 'all 0.6s ease-out';
+        });
+
+        // تأثيرات عند تحميل الصفحة
+        window.addEventListener('load', function() {
+            document.querySelector('.wellcome').style.opacity = '1';
+            document.querySelector('.wellcome').style.transform = 'translateY(0)';
+        });
+
+        document.querySelector('.wellcome').style.opacity = '0';
+        document.querySelector('.wellcome').style.transform = 'translateY(50px)';
+        document.querySelector('.wellcome').style.transition = 'all 0.8s ease-out';
+        
+        // تأثير ظهور التخصصات عند التمرير
+        function showMajorsOnScroll() {
+            const majors = document.querySelectorAll('.major-item');
+            majors.forEach((major, index) => {
+                const rect = major.getBoundingClientRect();
+                if (rect.top < window.innerHeight - 100) {
+                    setTimeout(() => {
+                        major.classList.add('in-view');
+                    }, index * 150);
+                }
+            });
+        }
+
+        // تشغيل عند التحميل وعند التمرير
+        window.addEventListener('load', showMajorsOnScroll);
+        window.addEventListener('scroll', showMajorsOnScroll);
+        
+        // JavaScript الموجود مع إضافة تأثيرات للعناصر الجديدة
+        document.querySelector('.menu-toggle').addEventListener('click', function() {
+            document.querySelector('nav ul').classList.toggle('active');
+        });
+        
+        // تأثير تدوير الشعارات
+        function rotateLogos() {
+            const logos = document.querySelectorAll('.rotating-logo');
+            let currentIndex = 0;
+            
+            setInterval(() => {
+                logos.forEach(logo => logo.style.opacity = '0');
+                currentIndex = (currentIndex + 1) % logos.length;
+                logos[currentIndex].style.opacity = '1';
+            }, 3000);
+        }
+        
+        // تهيئة الشعارات
+        window.addEventListener('load', function() {
+            const logos = document.querySelectorAll('.rotating-logo');
+            logos.forEach((logo, index) => {
+                logo.style.opacity = index === 0 ? '1' : '0';
+                logo.style.transition = 'opacity 1s ease-in-out';
+            });
+            rotateLogos();
+        });
+
+        // تحسين القائمة المنسدلة
+        document.querySelector('.menu-toggle').addEventListener('click', function() {
+            const nav = document.querySelector('nav ul');
+            nav.classList.toggle('active');
+            this.setAttribute('aria-expanded', nav.classList.contains('active'));
+        });
+
+// تأثير التحميل
+document.addEventListener('DOMContentLoaded', function() {
+    // إضافة كلاس loading للجسم
+    document.body.classList.add('loading');
+    
+    // إيقاف تأثير التحميل بعد 3 ثواني
+    setTimeout(function() {
+        const loadingOverlay = document.getElementById('loadingOverlay');
+        loadingOverlay.style.opacity = '0';
+        loadingOverlay.style.visibility = 'hidden';
+        
+        // إزالة كلاس loading وإظهار الصفحة
+        setTimeout(function() {
+            document.body.classList.remove('loading');
+            loadingOverlay.remove();
+            
+            // إظهار العناصر الرئيسية
+            document.querySelector('main').style.opacity = '1';
+            document.querySelector('main').style.visibility = 'visible';
+            document.querySelector('footer').style.opacity = '1';
+            document.querySelector('footer').style.visibility = 'visible';
+        }, 500);
+    }, 2000);
+});
+ 
+   </script>
+      
+</body>
+</html>

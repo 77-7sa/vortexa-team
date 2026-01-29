@@ -1347,3 +1347,65 @@ gap: 10px;
 a{
     text-decoration: none;
 }
+/* قسم شعار Vortexa المتحرك */
+.vortexa-logo-section {
+    z-index: 100;
+    padding: 30px 0;
+    margin: 40px 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.vortexa-logo-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.vortexa-logo-track {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    animation: scroll 20s linear infinite;
+    width: max-content;
+}
+
+.vortexa-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+}
+
+.vortexa-logo img {
+    height: 100px; /* يمكنك تعديل الارتفاع حسب الحاجة */
+    width: auto;
+    object-fit: contain;
+    transition: all 0.3s ease;
+}
+
+.vortexa-logo:hover img {
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 10px rgba(62, 87, 253, 0.5));
+}
+.vortexa-logo-track:hover {
+    animation-play-state: paused;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+/* تكيف مع الشاشات الصغيرة */
+@media (max-width: 768px) {
+    .vortexa-logo-track {
+        gap: 20px;
+    }
+    .vortexa-logo img {
+        height: 70px;
+    }
+}
